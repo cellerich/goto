@@ -1,7 +1,7 @@
 version: 1.0
 provider:
   name: openfaas
-  gateway: https://gareway.celleri.ch
+  gateway: https://gateway.celleri.ch
 functions:
   goto:
     lang: node10-express
