@@ -8,7 +8,7 @@ module.exports = (event, context) => {
      * remote, managed databases that would work here and maintain
      * a connection pool */
     if(event.path == "/home") {
-        redirect = "https://www.celleri.ch/";
+        redirect = "https://www.cellerich.ch/";
     } else if(event.path == "/sponsors" || event.path == "/insiders") {
         redirect = "https://github.com/users/alexellis/sponsorship";
     }
