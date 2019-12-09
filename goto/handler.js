@@ -30,3 +30,4 @@ module.exports = (event, context) => {
         .headers({"location": redirect})
         .succeed();
 }
+
