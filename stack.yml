@@ -1,7 +1,7 @@
 version: 1.0
 provider:
   name: openfaas
-  gateway: https://cloud.fimocello.dev
+  gateway: https://cellerich.fimocello.dev/function
 functions:
   goto:
     lang: node10-express
