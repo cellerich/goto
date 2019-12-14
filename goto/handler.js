@@ -7,8 +7,10 @@ module.exports = (event, context) => {
      * such as MongoDB, Redis or Postgres. AWS and DigitalOcean provide
      * remote, managed databases that would work here and maintain
      * a connection pool */
-    if(event.path == "/home") {
+    if(event.path == "/cellerich") {
         redirect = "https://www.cellerich.ch/";
+    } else if(event.path == "/openfaas" || event.path == "/faas") {
+        redirect = "https://system.swissbookings.dev/dashboard/cellerich";
     } else if(event.path == "/sponsors" || event.path == "/insiders") {
         redirect = "https://github.com/users/alexellis/sponsorship";
     }
