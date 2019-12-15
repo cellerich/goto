@@ -1,7 +1,7 @@
 version: 1.0
 provider:
   name: openfaas
-  gateway: https://cellerich.cloudfunction.ch/function
+  gateway: https://gateway.cloudfunction.ch
 functions:
   goto:
     lang: node10-express
