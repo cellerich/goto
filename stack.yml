@@ -8,5 +8,3 @@ functions:
     handler: ./goto
     image: cloudfunction/goto:latest
     
-    
-    
