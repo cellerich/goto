@@ -1,12 +1,12 @@
 version: 1.0
 provider:
   name: openfaas
-  gateway: https://cellerich.fimocello.dev/function
+  gateway: https://cellerich.cloudfunction.ch/function
 functions:
   goto:
     lang: node10-express
     handler: ./goto
-    image: cellerich/goto:latest
+    image: cloudfunction/goto:latest
     
     
     
